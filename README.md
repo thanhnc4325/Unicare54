@@ -3,7 +3,7 @@
 
 # Uni Care - Clean MVVM Architecture (Production Grade)
 
-## 🧠 1. Tổng kiến trúc (Overview)
+## 1. Tổng kiến trúc 
 
 ```
                         ┌──────────────────────┐
@@ -44,7 +44,7 @@
 
 ---
 
-## 📦 2. Cấu trúc Project (Android Java)
+## 2. Cấu trúc Project (Android Java)
 
 ```
 com.example.uncare
@@ -52,7 +52,7 @@ com.example.uncare
 
 ---
 
-## 🟦 3. CORE MODULE (DÙNG CHUNG TOÀN APP)
+## 3. CORE MODULE 
 
 ```
 core/
@@ -84,7 +84,7 @@ core/
 
 ---
 
-## 🟨 4. DOMAIN LAYER (BUSINESS LOGIC)
+## 4. DOMAIN LAYER 
 
 ```
 domain/
@@ -116,7 +116,7 @@ domain/
 
 ---
 
-## 🟩 5. DATA LAYER (IMPLEMENTATION)
+## 5. DATA LAYER 
 
 ```
 data/
@@ -141,9 +141,9 @@ data/
 
 ---
 
-## 🟪 6. FEATURE LAYER (THEO ROLE + MODULE)
+## 6. FEATURE LAYER 
 
-### 🔐 Auth Feature
+### Auth Feature
 
 ```
 feature/auth/
@@ -155,7 +155,7 @@ feature/auth/
 │   └── AuthViewModel.java
 ```
 
-### 🧑‍⚕️ Patient Feature
+### Patient Feature
 
 ```
 feature/patient/
@@ -167,7 +167,7 @@ feature/patient/
 ├── notification/
 ```
 
-### 👨‍⚕️ Doctor Feature
+### Doctor Feature
 
 ```
 feature/doctor/
@@ -180,7 +180,7 @@ feature/doctor/
 ├── notification/
 ```
 
-### 🌐 Common Feature
+### Common Feature
 
 ```
 feature/common/
@@ -190,7 +190,7 @@ feature/common/
 
 ---
 
-## 🧭 7. Navigation Layer
+## 7. Navigation Layer
 
 ```
 navigation/
@@ -199,7 +199,7 @@ navigation/
 
 ---
 
-## 🔥 8. Luồng hoạt động (Important)
+## 8. Luồng hoạt động 
 
 ### Book Appointment Flow
 
@@ -221,7 +221,7 @@ MySQL
 
 ---
 
-## 🧩 9. Role Handling
+## 9. Role Handling
 
 ```
 SessionManager.getRole()
