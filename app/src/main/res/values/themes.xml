@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UniCare" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Làm cho nội dung tràn lên phần status bar -->
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+    </style>
+
+    <style name="Theme.UniCare" parent="Base.Theme.UniCare" />
+    <style name="App.CustomIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">#B9D3E2</item> <!-- Màu nền của viên thuốc -->
+        <item name="android:height">40dp</item>
+        <item name="android:width">60dp</item>
+        <!-- Nếu muốn tắt hẳn indicator, hãy đặt color là @android:color/transparent -->
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style bo tròn ảnh nhẹ (20%) - Layout đang dùng tên này -->
+    <style name="roundedImage" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
+    </style>
+
+    <!-- Style tạo hình tròn hoàn hảo (50%) cho ShapeableImageView -->
+    <style name="CircleShapeAppearance" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Các Alias để tương thích với nhiều tên gọi khác nhau trong code -->
+    <style name="RoundedShapeAppearance" parent="roundedImage" />
+    <style name="CircleImageView" parent="CircleShapeAppearance" />
+    <style name="CircleImage" parent="CircleShapeAppearance" />
+    <style name="circleImage">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
